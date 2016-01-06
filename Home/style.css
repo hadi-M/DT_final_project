@@ -1,0 +1,40 @@
+body {
+  background-color: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 780px;
+  margin: 60px auto 0 auto;
+  bottom: 40px;
+}
+main .title {
+  text-align: center;
+}
+main .title h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding: 0 20px 0 20px;
+  text-shadow: #777 5px 5px 10px;
+  position: relative;
+  display: inline-block;
+}
+main .title h1:before, main .title h1:after {
+  border-top: 2px solid #A7A7A7;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+main .title h1:before {
+  left: 100%;
+}
+main .title h1:after {
+  right: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

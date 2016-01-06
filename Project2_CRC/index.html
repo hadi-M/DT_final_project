@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DT-Project (Hadi Modares - 90110126)</title>
+	<link rel="stylesheet" type="text/css" href="css-reset.css">
+	<link rel="stylesheet" type="text/css" href="Assets/font-awesome-4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="Assets/jQuery/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="Assets/HighCharts/js/highcharts.src.js"></script>
+</head>
+<body>
+	
+	<main>
+		<div class="row">
+			<section id="step-1">
+				<div class="content-hldr">
+					<div class="step-number">
+						1
+					</div>
+					<p class="text">So at first, i'm gonna generate a random array with the
+						size of 1000, considered as our signal</p>
+						<div class="tick">
+							<i class="fa fa-3x fa-check-circle-o"></i>
+						</div>
+					</div>
+				</section>
+				<section id="step-2">
+					<div class="content-hldr">
+						<div class="step-number">
+							2
+						</div>
+						<p class="text">and now, i'll generate a number, so our signal will be 
+							shifted based on that number<br>
+							i choose <span id="shift-amount"></span><br> (sssh... we don't know it :) )</p>
+							<div class="tick">
+								<i class="fa fa-3x fa-check-circle-o"></i>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="row">
+					<section id="step-3">
+						<div class="content-hldr">
+							<div class="step-number">
+								3
+							</div>
+							<div id="graph-hldr-small">
+								
+							</div>
+							<div class="tick">
+								<i class="fa fa-3x fa-check-circle-o"></i>
+								<i class="fa fa-3x fa-search zoom"></i>
+							</div>
+						</div>
+					</section>
+					<section id="step-4">
+						<div class="content-hldr">
+							<div class="step-number">
+								4
+							</div>
+							<p class="text">
+								Thus our shifted amount was
+								<span id="answer">
+									
+								</span>
+							</p>
+							<div class="tick"></div>
+						</div>
+					</section>
+				</div>
+				<div id="control-btns">
+					<i class="fa fa-4x fa-play active"></i>
+					<i class="fa fa-4x fa-repeat disable"></i>
+				</div>
+				<h1>Data Transmission Project</h1>
+
+			</main>
+
+			<div id="modal">
+				<div id="container">
+					
+				</div>
+				<div class="close-icon">
+					<i class="fa fa-2x fa-times"></i>
+				</div>
+			</div>
+			<div id="black-bg"></div>
+			<script type="text/javascript" src="script.js"></script>
+		</body>
+		</html>
